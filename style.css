@@ -1,0 +1,66 @@
+html {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white
+}
+
+p {
+    letter-spacing: 2px;
+    color: white;
+    padding-top: 10px;
+}
+
+.cover-section {
+    height: 100vh;
+    background-image: url(./Caffa-2619.jpg);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cover-section section {
+    padding: 0 65px;
+}
+
+.themes-section {
+    display: flex;
+    justify-content: right;
+    height: 50px;
+    padding-top: 20px;
+}
+
+.themes-section>div {
+    padding-left: 50px;
+    letter-spacing: 2px;
+    color: rgb(156, 154, 154)
+}
+
+.themes-section>div:hover {
+    color: white;
+}
+
+.socialmedia-section {
+    display: flex;
+    justify-content: right;
+    height: 50px;
+    padding-top: 20px;
+}
+
+.socialmedia-section>div {
+    padding-left: 10px;
+}
+
+svg {
+    fill: rgb(156, 154, 154);
+}
+
+svg:hover {
+    fill: white;
+}
