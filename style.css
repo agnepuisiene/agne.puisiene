@@ -9,6 +9,12 @@ h1 {
     color: white
 }
 
+h2 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: white
+}
+
 p {
     letter-spacing: 2px;
     color: white;
@@ -63,4 +69,46 @@ svg {
 
 svg:hover {
     fill: white;
+}
+
+.about-container {
+    display: flex;
+    min-height: 50vh;
+    background-color: rgb(156, 154, 154);
+    align-items: center;
+    padding: 0 65px;
+}
+
+.about-container .accounting {
+    display: flex;
+    justify-content: space-between;
+}
+
+.accounting>div {
+    flex: 1;
+}
+
+.calculator {
+    text-align: center;
+}
+
+.accountant {
+    padding-right: 30px;
+}
+
+.personal-projects {
+    display: flex;
+    min-height: 50vh;
+    background-color: white;
+    align-items: center;
+    padding: 0 65px;
+}
+
+.personal-projects .buildings {
+    display: flex;
+}
+
+.project-manager p {
+    color: rgb(156, 154, 154);
+    ;
 }
