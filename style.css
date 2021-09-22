@@ -6,13 +6,13 @@ h1 {
     font-size: 40px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: white
+    color: white;
 }
 
 h2 {
     font-size: 30px;
     letter-spacing: 2px;
-    color: white
+    color: white;
 }
 
 p {
@@ -25,7 +25,7 @@ p {
     height: 100vh;
     background-image: url(./Caffa-2619.jpg);
     background-size: cover;
-    background-position: top;
+    background-position: top right;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -73,10 +73,9 @@ svg:hover {
 
 .about-container {
     display: flex;
-    min-height: 50vh;
     background-color: rgb(156, 154, 154);
     align-items: center;
-    padding: 0 65px;
+    padding: 30px 65px;
 }
 
 .about-container .accounting {
@@ -92,8 +91,9 @@ svg:hover {
     text-align: center;
 }
 
-.accountant {
-    padding-right: 30px;
+.calculator img {
+    width: 100%;
+    height: auto;
 }
 
 .personal-projects {
@@ -101,13 +101,60 @@ svg:hover {
     min-height: 50vh;
     background-color: white;
     align-items: center;
-    padding: 0 65px;
+    padding: 30px 65px;
 }
 
 .personal-projects .buildings {
     display: flex;
+    justify-content: space-between;
+}
+
+.buildings>div {
+    flex: 1;
+}
+
+.architecture {
+    text-align: center;
+}
+
+.architecture img {
+    width: 100%;
+    height: auto;
 }
 
 .project-manager p {
     color: rgb(156, 154, 154);
+}
+
+.studies-container {
+    display: flex;
+    background-color: rgb(156, 154, 154);
+    align-items: center;
+    padding: 30px 65px;
+}
+
+.studies-container .studying {
+    display: flex;
+    justify-content: space-between;
+}
+
+.studying>div {
+    flex: 1;
+}
+
+.computer {
+    text-align: center;
+}
+
+.computer img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width:780px) {
+    .accounting,
+    .buildings,
+    .studying {
+        flex-direction: column-reverse;
+    }
 }
