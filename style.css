@@ -1,113 +1,160 @@
-html {
-    font-family: sans-serif;
-}
-
-h1 {
-    font-size: 40px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: white
-}
-
-h2 {
-    font-size: 30px;
-    letter-spacing: 2px;
-    color: white
-}
-
-p {
-    letter-spacing: 2px;
-    color: white;
-    padding-top: 10px;
-}
-
-.cover-section {
-    height: 100vh;
-    background-image: url(./Caffa-2619.jpg);
-    background-size: cover;
-    background-position: top;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.cover-section section {
-    padding: 0 65px;
-}
-
-.themes-section {
-    display: flex;
-    justify-content: right;
-    height: 50px;
-    padding-top: 20px;
-}
-
-.themes-section>div {
-    padding-left: 50px;
-    letter-spacing: 2px;
-    color: rgb(156, 154, 154)
-}
-
-.themes-section>div:hover {
-    color: white;
-}
-
-.socialmedia-section {
-    display: flex;
-    justify-content: right;
-    height: 50px;
-    padding-top: 20px;
-}
-
-.socialmedia-section>div {
-    padding-left: 10px;
-}
-
-svg {
-    fill: rgb(156, 154, 154);
-}
-
-svg:hover {
-    fill: white;
-}
-
-.about-container {
-    display: flex;
-    min-height: 50vh;
-    background-color: rgb(156, 154, 154);
-    align-items: center;
-    padding: 0 65px;
-}
-
-.about-container .accounting {
-    display: flex;
-    justify-content: space-between;
-}
-
-.accounting>div {
-    flex: 1;
-}
-
-.calculator {
-    text-align: center;
-}
-
-.accountant {
-    padding-right: 30px;
-}
-
-.personal-projects {
-    display: flex;
-    min-height: 50vh;
-    background-color: white;
-    align-items: center;
-    padding: 0 65px;
-}
-
-.personal-projects .buildings {
-    display: flex;
-}
-
-.project-manager p {
-    color: rgb(156, 154, 154);
-}
+                   html {
+                       font-family: sans-serif;
+                   }
+                   
+                   h1 {
+                       font-size: 40px;
+                       text-transform: uppercase;
+                       letter-spacing: 2px;
+                       color: white
+                   }
+                   
+                   h2 {
+                       font-size: 30px;
+                       letter-spacing: 2px;
+                       color: white
+                   }
+                   
+                   p {
+                       letter-spacing: 2px;
+                       color: white;
+                       padding-top: 10px;
+                   }
+                   
+                   .cover-section {
+                       height: 100vh;
+                       background-image: url(./Caffa-2619.jpg);
+                       background-size: cover;
+                       background-position: top right;
+                       display: flex;
+                       flex-direction: column;
+                       justify-content: space-between;
+                   }
+                   
+                   .cover-section section {
+                       padding: 0 65px;
+                   }
+                   
+                   .themes-section {
+                       display: flex;
+                       justify-content: right;
+                       height: 50px;
+                       padding-top: 20px;
+                   }
+                   
+                   .themes-section>div {
+                       padding-left: 50px;
+                       letter-spacing: 2px;
+                       color: rgb(156, 154, 154)
+                   }
+                   
+                   .themes-section>div:hover {
+                       color: white;
+                   }
+                   
+                   .socialmedia-section {
+                       display: flex;
+                       justify-content: right;
+                       height: 50px;
+                       padding-top: 20px;
+                   }
+                   
+                   .socialmedia-section>div {
+                       padding-left: 10px;
+                   }
+                   
+                   svg {
+                       fill: rgb(156, 154, 154);
+                   }
+                   
+                   svg:hover {
+                       fill: white;
+                   }
+                   
+                   .about-container {
+                       display: flex;
+                       background-color: rgb(156, 154, 154);
+                       align-items: center;
+                       padding: 30px 65px;
+                   }
+                   
+                   .about-container .accounting {
+                       display: flex;
+                       justify-content: space-between;
+                   }
+                   
+                   .accounting>div {
+                       flex: 1;
+                   }
+                   
+                   .calculator {
+                       text-align: center;
+                   }
+                   
+                   .calculator img {
+                       width: 100%;
+                       height: auto;
+                   }
+                   
+                   .personal-projects {
+                       display: flex;
+                       min-height: 50vh;
+                       background-color: white;
+                       align-items: center;
+                       padding: 30px 65px;
+                   }
+                   
+                   .personal-projects .buildings {
+                       display: flex;
+                       justify-content: space-between;
+                   }
+                   
+                   .buildings>div {
+                       flex: 1;
+                   }
+                   
+                   .architecture {
+                       text-align: center;
+                   }
+                   
+                   .architecture img {
+                       width: 100%;
+                       height: auto;
+                   }
+                   
+                   .project-manager p {
+                       color: rgb(156, 154, 154);
+                   }
+                   
+                   .studies-container {
+                       display: flex;
+                       background-color: rgb(156, 154, 154);
+                       align-items: center;
+                       padding: 30px 65px;
+                   }
+                   
+                   .studies-container .studying {
+                       display: flex;
+                       justify-content: space-between;
+                   }
+                   
+                   .studying>div {
+                       flex: 1;
+                   }
+                   
+                   .computer {
+                       text-align: center;
+                   }
+                   
+                   .computer img {
+                       width: 100%;
+                       height: auto;
+                   }
+                   
+                   @media (max-width:780px) {
+                       .accounting,
+                       .buildings,
+                       .studying {
+                           flex-direction: column-reverse;
+                       }
+                   }
