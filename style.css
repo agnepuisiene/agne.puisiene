@@ -2,9 +2,14 @@ html {
     font-family: sans-serif;
 }
 
+body {
+    border: solid 1px var(--red-color);
+}
+
 :root {
     --light-color: white;
     --dark-color: rgb(156, 154, 154);
+    --red-color: #783838;
 }
 
 h1 {
@@ -29,6 +34,15 @@ p {
 span {
     letter-spacing: 2px;
     color: var(--dark-color);
+}
+
+a {
+    color: var(--dark-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--light-color);
 }
 
 .cover-section {
@@ -210,7 +224,7 @@ svg:hover {
     justify-content: space-between;
     align-items: center;
     padding: 0px 30px;
-    background-color: var(--light-color);
+    background-color: var(--red-color);
 }
 
 @media (max-width:780px) {
