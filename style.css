@@ -279,9 +279,13 @@
                     }
                     
                     @media (max-width:768px) {
+                        /* header {
+                            position: relative;
+                        } */
                         .themes-section {
                             flex-direction: column;
                             align-items: flex-end;
+                            /* display: none; */
                         }
                         .cover-section .hello-section {
                             padding: 0px 40px;
@@ -289,6 +293,10 @@
                         .cover-section nav {
                             padding: 0 40px;
                         }
+                        /* .cover-section section {
+                            display: flex;
+                            justify-content: right;
+                        } */
                         .about-container {
                             padding: 30px 40px 10px 40px;
                         }
@@ -306,6 +314,14 @@
                         .student {
                             padding-right: 0px;
                         }
+                        /* nav {
+                            position: absolute;
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            text-align: center;
+                            height: 200px;
+                        } */
                     }
                     
                     @media (max-width:345px) {
