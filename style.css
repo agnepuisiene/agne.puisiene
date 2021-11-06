@@ -10,6 +10,8 @@
                         --light-color: white;
                         --dark-color: rgb(50, 50, 50);
                         --red-color: #c9937b;
+                        --overlay-color: rgb(50, 50, 50, 0.85);
+                        --menu-speed: 0.75s;
                     }
                     
                     h1 {
@@ -48,7 +50,7 @@
                     
                     .cover-section {
                         height: 100vh;
-                        background-image: url(./CAFF4120_corrected.jpg);
+                        background-image: url(./rsz_caff4120_corrected.jpg);
                         background-size: cover;
                         background-position: top center;
                         display: flex;
@@ -282,6 +284,7 @@
                         .themes-section {
                             flex-direction: column;
                             align-items: flex-end;
+                            display: none;
                         }
                         .cover-section .hello-section {
                             padding: 0px 40px;
